@@ -1,0 +1,51 @@
+
+Test Case:
+A: ['a', 'ab', 'bba'], B: ['baa', 'aa', 'bb'], k: 1
+No matches found, increasing k to  2
+
+Test Case:
+A: ['a', 'ab', 'bba'], B: ['baa', 'aa', 'bb'], k: 2
+No matches found, increasing k to  3
+
+Test Case:
+A: ['a', 'ab', 'bba'], B: ['baa', 'aa', 'bb'], k: 3
+No matches found, increasing k to  4
+
+Test Case:
+A: ['a', 'ab', 'bba'], B: ['baa', 'aa', 'bb'], k: 4
+k= 4
+Matches found:
+bbaabbbaaX0X2X1X2
+Ra:  ['aX0', 'abX1', 'bbaX2', 'aaX0X0', 'aabX1X0', 'abbaX2X0', 'abaX0X1', 'ababX1X1', 'abbbaX2X1', 'bbaaX0X2', 'bbaabX1X2', 'bbabbaX2X2', 'aaaX0X0X0', 'aaabX1X0X0', 'aabbaX2X0X0', 'aabaX0X1X0', 'aababX1X1X0', 'aabbbaX2X1X0', 'abbaaX0X2X0', 'abbaabX1X2X0', 'abbabbaX2X2X0', 'abaaX0X0X1', 'abaabX1X0X1', 'ababbaX2X0X1', 'ababaX0X1X1', 'abababX1X1X1', 'ababbbaX2X1X1', 'abbbaaX0X2X1', 'abbbaabX1X2X1', 'abbbabbaX2X2X1', 'bbaaaX0X0X2', 'bbaaabX1X0X2', 'bbaabbaX2X0X2', 'bbaabaX0X1X2', 'bbaababX1X1X2', 'bbaabbbaX2X1X2', 'bbabbaaX0X2X2', 'bbabbaabX1X2X2', 'bbabbabbaX2X2X2', 'aaaaX0X0X0X0', 'aaaabX1X0X0X0', 'aaabbaX2X0X0X0', 'aaabaX0X1X0X0', 'aaababX1X1X0X0', 'aaabbbaX2X1X0X0', 'aabbaaX0X2X0X0', 'aabbaabX1X2X0X0', 'aabbabbaX2X2X0X0', 'aabaaX0X0X1X0', 'aabaabX1X0X1X0', 'aababbaX2X0X1X0', 'aababaX0X1X1X0', 'aabababX1X1X1X0', 'aababbbaX2X1X1X0', 'aabbbaaX0X2X1X0', 'aabbbaabX1X2X1X0', 'aabbbabbaX2X2X1X0', 'abbaaaX0X0X2X0', 'abbaaabX1X0X2X0', 'abbaabbaX2X0X2X0', 'abbaabaX0X1X2X0', 'abbaababX1X1X2X0', 'abbaabbbaX2X1X2X0', 'abbabbaaX0X2X2X0', 'abbabbaabX1X2X2X0', 'abbabbabbaX2X2X2X0', 'abaaaX0X0X0X1', 'abaaabX1X0X0X1', 'abaabbaX2X0X0X1', 'abaabaX0X1X0X1', 'abaababX1X1X0X1', 'abaabbbaX2X1X0X1', 'ababbaaX0X2X0X1', 'ababbaabX1X2X0X1', 'ababbabbaX2X2X0X1', 'ababaaX0X0X1X1', 'ababaabX1X0X1X1', 'abababbaX2X0X1X1', 'abababaX0X1X1X1', 'ababababX1X1X1X1', 'abababbbaX2X1X1X1', 'ababbbaaX0X2X1X1', 'ababbbaabX1X2X1X1', 'ababbbabbaX2X2X1X1', 'abbbaaaX0X0X2X1', 'abbbaaabX1X0X2X1', 'abbbaabbaX2X0X2X1', 'abbbaabaX0X1X2X1', 'abbbaababX1X1X2X1', 'abbbaabbbaX2X1X2X1', 'abbbabbaaX0X2X2X1', 'abbbabbaabX1X2X2X1', 'abbbabbabbaX2X2X2X1', 'bbaaaaX0X0X0X2', 'bbaaaabX1X0X0X2', 'bbaaabbaX2X0X0X2', 'bbaaabaX0X1X0X2', 'bbaaababX1X1X0X2', 'bbaaabbbaX2X1X0X2', 'bbaabbaaX0X2X0X2', 'bbaabbaabX1X2X0X2', 'bbaabbabbaX2X2X0X2', 'bbaabaaX0X0X1X2', 'bbaabaabX1X0X1X2', 'bbaababbaX2X0X1X2', 'bbaababaX0X1X1X2', 'bbaabababX1X1X1X2', 'bbaababbbaX2X1X1X2', 'bbaabbbaaX0X2X1X2', 'bbaabbbaabX1X2X1X2', 'bbaabbbabbaX2X2X1X2', 'bbabbaaaX0X0X2X2', 'bbabbaaabX1X0X2X2', 'bbabbaabbaX2X0X2X2', 'bbabbaabaX0X1X2X2', 'bbabbaababX1X1X2X2', 'bbabbaabbbaX2X1X2X2', 'bbabbabbaaX0X2X2X2', 'bbabbabbaabX1X2X2X2', 'bbabbabbabbaX2X2X2X2']
+Rb:  ['baaX0', 'aaX1', 'bbX2', 'baabaaX0X0', 'baaaaX1X0', 'baabbX2X0', 'aabaaX0X1', 'aaaaX1X1', 'aabbX2X1', 'bbbaaX0X2', 'bbaaX1X2', 'bbbbX2X2', 'baabaabaaX0X0X0', 'baabaaaaX1X0X0', 'baabaabbX2X0X0', 'baaaabaaX0X1X0', 'baaaaaaX1X1X0', 'baaaabbX2X1X0', 'baabbbaaX0X2X0', 'baabbaaX1X2X0', 'baabbbbX2X2X0', 'aabaabaaX0X0X1', 'aabaaaaX1X0X1', 'aabaabbX2X0X1', 'aaaabaaX0X1X1', 'aaaaaaX1X1X1', 'aaaabbX2X1X1', 'aabbbaaX0X2X1', 'aabbaaX1X2X1', 'aabbbbX2X2X1', 'bbbaabaaX0X0X2', 'bbbaaaaX1X0X2', 'bbbaabbX2X0X2', 'bbaabaaX0X1X2', 'bbaaaaX1X1X2', 'bbaabbX2X1X2', 'bbbbbaaX0X2X2', 'bbbbaaX1X2X2', 'bbbbbbX2X2X2', 'baabaabaabaaX0X0X0X0', 'baabaabaaaaX1X0X0X0', 'baabaabaabbX2X0X0X0', 'baabaaaabaaX0X1X0X0', 'baabaaaaaaX1X1X0X0', 'baabaaaabbX2X1X0X0', 'baabaabbbaaX0X2X0X0', 'baabaabbaaX1X2X0X0', 'baabaabbbbX2X2X0X0', 'baaaabaabaaX0X0X1X0', 'baaaabaaaaX1X0X1X0', 'baaaabaabbX2X0X1X0', 'baaaaaabaaX0X1X1X0', 'baaaaaaaaX1X1X1X0', 'baaaaaabbX2X1X1X0', 'baaaabbbaaX0X2X1X0', 'baaaabbaaX1X2X1X0', 'baaaabbbbX2X2X1X0', 'baabbbaabaaX0X0X2X0', 'baabbbaaaaX1X0X2X0', 'baabbbaabbX2X0X2X0', 'baabbaabaaX0X1X2X0', 'baabbaaaaX1X1X2X0', 'baabbaabbX2X1X2X0', 'baabbbbbaaX0X2X2X0', 'baabbbbaaX1X2X2X0', 'baabbbbbbX2X2X2X0', 'aabaabaabaaX0X0X0X1', 'aabaabaaaaX1X0X0X1', 'aabaabaabbX2X0X0X1', 'aabaaaabaaX0X1X0X1', 'aabaaaaaaX1X1X0X1', 'aabaaaabbX2X1X0X1', 'aabaabbbaaX0X2X0X1', 'aabaabbaaX1X2X0X1', 'aabaabbbbX2X2X0X1', 'aaaabaabaaX0X0X1X1', 'aaaabaaaaX1X0X1X1', 'aaaabaabbX2X0X1X1', 'aaaaaabaaX0X1X1X1', 'aaaaaaaaX1X1X1X1', 'aaaaaabbX2X1X1X1', 'aaaabbbaaX0X2X1X1', 'aaaabbaaX1X2X1X1', 'aaaabbbbX2X2X1X1', 'aabbbaabaaX0X0X2X1', 'aabbbaaaaX1X0X2X1', 'aabbbaabbX2X0X2X1', 'aabbaabaaX0X1X2X1', 'aabbaaaaX1X1X2X1', 'aabbaabbX2X1X2X1', 'aabbbbbaaX0X2X2X1', 'aabbbbaaX1X2X2X1', 'aabbbbbbX2X2X2X1', 'bbbaabaabaaX0X0X0X2', 'bbbaabaaaaX1X0X0X2', 'bbbaabaabbX2X0X0X2', 'bbbaaaabaaX0X1X0X2', 'bbbaaaaaaX1X1X0X2', 'bbbaaaabbX2X1X0X2', 'bbbaabbbaaX0X2X0X2', 'bbbaabbaaX1X2X0X2', 'bbbaabbbbX2X2X0X2', 'bbaabaabaaX0X0X1X2', 'bbaabaaaaX1X0X1X2', 'bbaabaabbX2X0X1X2', 'bbaaaabaaX0X1X1X2', 'bbaaaaaaX1X1X1X2', 'bbaaaabbX2X1X1X2', 'bbaabbbaaX0X2X1X2', 'bbaabbaaX1X2X1X2', 'bbaabbbbX2X2X1X2', 'bbbbbaabaaX0X0X2X2', 'bbbbbaaaaX1X0X2X2', 'bbbbbaabbX2X0X2X2', 'bbbbaabaaX0X1X2X2', 'bbbbaaaaX1X1X2X2', 'bbbbaabbX2X1X2X2', 'bbbbbbbaaX0X2X2X2', 'bbbbbbaaX1X2X2X2', 'bbbbbbbbX2X2X2X2']
+Intersection:  ['bbaabbbaaX0X2X1X2']
+
+Test Case:
+A: ['110', '0011', '0110'], B: ['110110', '00', '110'], k: 1
+No matches found, increasing k to  2
+
+Test Case:
+A: ['110', '0011', '0110'], B: ['110110', '00', '110'], k: 2
+No matches found, increasing k to  3
+
+Test Case:
+A: ['110', '0011', '0110'], B: ['110110', '00', '110'], k: 3
+k= 3
+Matches found:
+00110110110X0X2X1
+Ra:  ['110X0', '0011X1', '0110X2', '110110X0X0', '1100011X1X0', '1100110X2X0', '0011110X0X1', '00110011X1X1', '00110110X2X1', '0110110X0X2', '01100011X1X2', '01100110X2X2', '110110110X0X0X0', '1101100011X1X0X0', '1101100110X2X0X0', '1100011110X0X1X0', '11000110011X1X1X0', '11000110110X2X1X0', '1100110110X0X2X0', '11001100011X1X2X0', '11001100110X2X2X0', '0011110110X0X0X1', '00111100011X1X0X1', '00111100110X2X0X1', '00110011110X0X1X1', '001100110011X1X1X1', '001100110110X2X1X1', '00110110110X0X2X1', '001101100011X1X2X1', '001101100110X2X2X1', '0110110110X0X0X2', '01101100011X1X0X2', '01101100110X2X0X2', '01100011110X0X1X2', '011000110011X1X1X2', '011000110110X2X1X2', '01100110110X0X2X2', '011001100011X1X2X2', '011001100110X2X2X2']
+Rb:  ['110110X0', '00X1', '110X2', '110110110110X0X0', '11011000X1X0', '110110110X2X0', '00110110X0X1', '0000X1X1', '00110X2X1', '110110110X0X2', '11000X1X2', '110110X2X2', '110110110110110110X0X0X0', '11011011011000X1X0X0', '110110110110110X2X0X0', '11011000110110X0X1X0', '1101100000X1X1X0', '11011000110X2X1X0', '110110110110110X0X2X0', '11011011000X1X2X0', '110110110110X2X2X0', '00110110110110X0X0X1', '0011011000X1X0X1', '00110110110X2X0X1', '0000110110X0X1X1', '000000X1X1X1', '0000110X2X1X1', '00110110110X0X2X1', '0011000X1X2X1', '00110110X2X2X1', '110110110110110X0X0X2', '11011011000X1X0X2', '110110110110X2X0X2', '11000110110X0X1X2', '1100000X1X1X2', '11000110X2X1X2', '110110110110X0X2X2', '11011000X1X2X2', '110110110X2X2X2']
+Intersection:  ['00110110110X0X2X1']
+
+Test Case:
+A: ['abab', 'aaabbb', 'aab', 'ba', 'ab', 'aa'], B: ['ababaaa', 'bb', 'baab', 'baa', 'ba', 'a'], k: 1
+No matches found, increasing k to  2
+
+Test Case:
+A: ['abab', 'aaabbb', 'aab', 'ba', 'ab', 'aa'], B: ['ababaaa', 'bb', 'baab', 'baa', 'ba', 'a'], k: 2
+k= 2
+Matches found:
+baaaX5X3
+Ra:  ['ababX0', 'aaabbbX1', 'aabX2', 'baX3', 'abX4', 'aaX5', 'ababababX0X0', 'ababaaabbbX1X0', 'ababaabX2X0', 'ababbaX3X0', 'abababX4X0', 'ababaaX5X0', 'aaabbbababX0X1', 'aaabbbaaabbbX1X1', 'aaabbbaabX2X1', 'aaabbbbaX3X1', 'aaabbbabX4X1', 'aaabbbaaX5X1', 'aabababX0X2', 'aabaaabbbX1X2', 'aabaabX2X2', 'aabbaX3X2', 'aababX4X2', 'aabaaX5X2', 'baababX0X3', 'baaaabbbX1X3', 'baaabX2X3', 'babaX3X3', 'baabX4X3', 'baaaX5X3', 'abababX0X4', 'abaaabbbX1X4', 'abaabX2X4', 'abbaX3X4', 'ababX4X4', 'abaaX5X4', 'aaababX0X5', 'aaaaabbbX1X5', 'aaaabX2X5', 'aabaX3X5', 'aaabX4X5', 'aaaaX5X5']
+Rb:  ['ababaaaX0', 'bbX1', 'baabX2', 'baaX3', 'baX4', 'aX5', 'ababaaaababaaaX0X0', 'ababaaabbX1X0', 'ababaaabaabX2X0', 'ababaaabaaX3X0', 'ababaaabaX4X0', 'ababaaaaX5X0', 'bbababaaaX0X1', 'bbbbX1X1', 'bbbaabX2X1', 'bbbaaX3X1', 'bbbaX4X1', 'bbaX5X1', 'baabababaaaX0X2', 'baabbbX1X2', 'baabbaabX2X2', 'baabbaaX3X2', 'baabbaX4X2', 'baabaX5X2', 'baaababaaaX0X3', 'baabbX1X3', 'baabaabX2X3', 'baabaaX3X3', 'baabaX4X3', 'baaaX5X3', 'baababaaaX0X4', 'babbX1X4', 'babaabX2X4', 'babaaX3X4', 'babaX4X4', 'baaX5X4', 'aababaaaX0X5', 'abbX1X5', 'abaabX2X5', 'abaaX3X5', 'abaX4X5', 'aaX5X5']
+Intersection:  ['baaaX5X3']
